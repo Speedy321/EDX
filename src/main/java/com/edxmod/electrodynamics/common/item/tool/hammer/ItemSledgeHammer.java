@@ -21,7 +21,7 @@ public class ItemSledgeHammer extends EDXToolItem {
 
     @Override
     @SideOnly(Side.CLIENT)
-    public void registerIcons(IIconRegister iconRegister){
+    public void registerIcons(IIconRegister iconRegister) {
         itemIcon = iconRegister.registerIcon(EDXProps.RESOURCE_PREFIX + "sledgeHammer");
     }
 }

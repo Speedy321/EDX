@@ -13,7 +13,7 @@ import net.minecraft.item.Item;
  */
 public class ItemTreeTap extends EDXToolItem {
 
-    public ItemTreeTap(){
+    public ItemTreeTap() {
         setCreativeTab(EDXCreativeTab.TOOLS.get());
         setMaxStackSize(1);
         setUnlocalizedName("TreeTap");

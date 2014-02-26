@@ -17,13 +17,13 @@ import net.minecraft.world.World;
  */
 public class BlockTable extends EDXTileMultiBlock {
 
-    private static final String[] NAMES = new String[] {"wood", "stone"};
+    private static final String[] NAMES = new String[]{"wood", "stone"};
 
     @Override
     public void setBlockBoundsBasedOnState(IBlockAccess world, int x, int y, int z) {
         int meta = world.getBlockMetadata(x, y, z);
 
-        switch(meta) {
+        switch (meta) {
             case 0: {
                 setBlockBounds(0, 0, 0, 1, RenderTileTable.WOOD_RENDER_MAX, 1);
                 break;

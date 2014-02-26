@@ -1,4 +1,5 @@
 package com.edxmod.electrodynamics.common.item.prefab;
+
 import net.minecraft.item.ItemStack;
 
 /**
@@ -7,7 +8,7 @@ import net.minecraft.item.ItemStack;
 public class EDXToolItem extends EDXBasicItem {
 
     @Override
-    public String getUnlocalizedName(){
+    public String getUnlocalizedName() {
         return "item.tool." + getRawUnlocalizedName();
     }
 
@@ -15,7 +16,5 @@ public class EDXToolItem extends EDXBasicItem {
     public String getUnlocalizedName(ItemStack itemStack) {
         return "item.tool." + getRawUnlocalizedName();
     }
-
-
 
 }

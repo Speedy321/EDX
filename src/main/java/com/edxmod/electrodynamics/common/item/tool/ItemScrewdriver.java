@@ -11,7 +11,7 @@ import net.minecraft.item.Item;
 /**
  * @author Thlayli
  */
-public class ItemScrewdriver extends EDXToolItem{
+public class ItemScrewdriver extends EDXToolItem {
 
     public ItemScrewdriver() {
         setCreativeTab(EDXCreativeTab.TOOLS.get());

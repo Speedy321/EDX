@@ -36,7 +36,7 @@ public class RenderItemTable implements IItemRenderer {
             GL11.glTranslated(-0.5, 0, -0.5);
         }
 
-        switch(item.getItemDamage()) {
+        switch (item.getItemDamage()) {
             case 0: {
                 woodTable.bindTexture();
                 woodTable.renderAll();

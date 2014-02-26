@@ -1,4 +1,5 @@
 package com.edxmod.electrodynamics.common.item;
+
 import com.edxmod.electrodynamics.common.item.component.*;
 import com.edxmod.electrodynamics.common.item.prefab.EDXBasicItem;
 import com.edxmod.electrodynamics.common.item.tool.*;
@@ -6,6 +7,7 @@ import com.edxmod.electrodynamics.common.item.tool.hammer.*;
 import com.edxmod.electrodynamics.common.lib.EDXProps;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
+
 import java.util.ArrayList;
 
 /**
@@ -31,12 +33,12 @@ public class EDXItems {
     public static EDXBasicItem itemBucketLatex;
 
 
-    public static void init(){
+    public static void init() {
         initItems();
         registerItems();
     }
 
-    private static void initItems(){
+    private static void initItems() {
         itemList = new ArrayList<Item>(1);
         /*tools*/
         itemList.add(itemBarkSpud = new ItemPeelingSpud());
@@ -55,9 +57,9 @@ public class EDXItems {
         itemList.add(itemBucketLatex = new ItemBucketLatex());
     }
 
-    private static void registerItems(){
-        for(int i=0;i<itemList.size();i++){
-         GameRegistry.registerItem(itemList.get(i),itemList.get(i).getUnlocalizedName(),EDXProps.ID);
+    private static void registerItems() {
+        for (int i = 0; i < itemList.size(); i++) {
+            GameRegistry.registerItem(itemList.get(i), itemList.get(i).getUnlocalizedName(), EDXProps.ID);
         }
     }
 }

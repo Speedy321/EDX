@@ -21,7 +21,7 @@ public class EDXItemMultiBlock extends ItemBlock {
 
     @Override
     public String getUnlocalizedName(ItemStack stack) {
-        return super.getUnlocalizedName(stack) + "." + ((EDXMultiBlock)this.field_150939_a).getNameForType(stack.getItemDamage());
+        return super.getUnlocalizedName(stack) + "." + ((EDXMultiBlock) this.field_150939_a).getNameForType(stack.getItemDamage());
     }
 
 }

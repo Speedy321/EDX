@@ -14,7 +14,7 @@ import net.minecraft.util.IIcon;
  */
 public class BlockLimestone extends EDXMultiBlock {
 
-    private static final String[] limestoneTypes = new String[] { "limestone", "limestoneCobblestone", "limestoneBricks", "limestoneScorched", "limestoneScorcedBricks", "limestoneTiled" };
+    private static final String[] limestoneTypes = new String[]{"limestone", "limestoneCobblestone", "limestoneBricks", "limestoneScorched", "limestoneScorcedBricks", "limestoneTiled"};
     private IIcon[] textures;
 
     public BlockLimestone() {
@@ -34,7 +34,7 @@ public class BlockLimestone extends EDXMultiBlock {
     @Override
     public void registerBlockIcons(IIconRegister iconRegister) {
         textures = new IIcon[limestoneTypes.length];
-        for (int i = 0; i  < limestoneTypes.length; i++) {
+        for (int i = 0; i < limestoneTypes.length; i++) {
             textures[i] = iconRegister.registerIcon(EDXProps.RESOURCE_PREFIX + "world/" + limestoneTypes[i]);
         }
     }

@@ -12,12 +12,12 @@ import net.minecraft.item.Item;
 /**
  * @author Thlayli
  */
-public class ItemRedstoneEmitter extends EDXMultiTool{
+public class ItemRedstoneEmitter extends EDXMultiTool {
 
     public ItemRedstoneEmitter() {
         setCreativeTab(EDXCreativeTab.TOOLS.get());
         setMaxStackSize(1);
-        setUnlocalizedNames(new String[] {"full_","depleted_","charging_"});
+        setUnlocalizedNames(new String[]{"full_", "depleted_", "charging_"});
         setUnlocalizedName("redstoneEmitter");
     }
 }

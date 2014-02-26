@@ -36,8 +36,9 @@ public abstract class TileCore extends TileEntity {
     }
 
     public void onDataPacket(NetworkManager net, S35PacketUpdateTileEntity pkt) {
-        switch(pkt.func_148853_f()) {
-            case 0: readFromNBT(pkt.func_148857_g());
+        switch (pkt.func_148853_f()) {
+            case 0:
+                readFromNBT(pkt.func_148857_g());
         }
         getWorldObj().markBlockRangeForRenderUpdate(xCoord, yCoord, zCoord, xCoord, yCoord, zCoord);
     }

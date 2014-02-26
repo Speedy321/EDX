@@ -27,6 +27,6 @@ public class ItemHammer extends EDXMultiTool {
         setMaxStackSize(1);
         setHasSubtypes(true);
         setUnlocalizedName("hammer");
-        setUnlocalizedNames(new String[] {"stone","steel"});
+        setUnlocalizedNames(new String[]{"stone", "steel"});
     }
 }

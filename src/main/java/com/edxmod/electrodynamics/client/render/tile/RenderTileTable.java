@@ -29,7 +29,7 @@ public class RenderTileTable extends TileEntitySpecialRenderer {
 
         GL11.glTranslated(x, y, z);
 
-        switch(tile.getBlockMetadata()) {
+        switch (tile.getBlockMetadata()) {
             case 0: {
                 woodTable.bindTexture();
                 woodTable.renderAll();
