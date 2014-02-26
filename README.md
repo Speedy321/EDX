@@ -26,7 +26,7 @@ Also try to make the title describe briefly what's wrong.
 
 Include what you've expected to happen and what happened.
 
-Also try and include information like version of quanta and your Java Runtime Environment.
+Also try and include information like version of Electrodynamics and your Java Runtime Environment.
 
 Additional Information like what Java version the server runs on would be appreciated, but is not required at all times.
 
