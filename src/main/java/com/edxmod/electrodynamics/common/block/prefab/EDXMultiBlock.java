@@ -77,6 +77,6 @@ public abstract class EDXMultiBlock extends Block {
     @SideOnly(Side.CLIENT)
     @Override
     public int getRenderType() {
-        return this.useCustomRender() ? -1 : 1;
+        return this.useCustomRender() ? -1 : 0;
     }
 }
